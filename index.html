@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="assets/js/app.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 class="title-calculator">Calculator Program</h1>
+
+    <section class="">
+        <div class="bg-calculator">
+        <table>
+            <thead>
+                <tr>
+                    <input type="text" id="shownumber" disabled>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <button type="button" class="btn-round" id="seven" onclick="cal('7')">7</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn-round" id="eight" onclick="cal('8')">8</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn-round" id="nine" onclick="cal('9')">9</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn-round" id="divide" onclick="cal('/')">/</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" class="btn-round" id="four" onclick="cal('4')">4</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn-round" id="five" onclick="cal('5')">5</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn-round" id="six" onclick="cal('6')">6</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn-round" id="multiply" onclick="cal('x')">x</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" class="btn-round" id="one" onclick="cal('1')">1</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn-round" id="two" onclick="cal('2')">2</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn-round" id="three" onclick="cal('3')">3</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn-round" id="minus" onclick="cal('-')">-</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" class="btn-round" id="zero" onclick="cal('0')">0</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn-round" id="point" onclick="cal('.')">.</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn-round" id="plus" onclick="cal('+')">+</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn-round" id="equal" onclick="total()">=</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="button" class="btn-clear" id="c" onclick="clr()">C</button>
+        </div>
+    </section>
+</body>
+</html>
